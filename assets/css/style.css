@@ -6,8 +6,9 @@ body * {
 }
 
 .navbar-brand img {
-    width: 80px;
-    margin-left: 119px;
+    width: 120px;
+    margin-left: 70px;
+
 }
 
 .navbar {
@@ -16,63 +17,87 @@ body * {
 }
 
 .collapse {
-    margin-right: 119px;
+    margin-right: 70px;
 }
 
 .nav-item {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: lighter;
 }
 
-#menu {
+#cupones {
     margin-left: 10%;
     margin-right: 10%;
 }
 
 .card-title {
-    color: #373A3C;
-    font-size: 17px;
-    font-weight: bold;
+    color: #707070;
+    font-size: 20pt;
+    font-weight: lighter;
 }
 
-.card-title {
-    color: #373A3C;
+.card-text {
+    color: #707070;
+    font-size: 16pt;
+    font-weight: lighter;
+}
+
+.icono {
+    width:10%;
+    display: inline-block;
+}
+.list-group-item {
+    color: #707070;
+    font-size: 13pt;
+    font-weight: lighter;
+    display: inline-block;
+    padding: 0%;
+}
+
+.card-body{
+    text-align: right;
+}
+
+.card-valor {
+    color: #707070;
     font-size: 16px;
-
+    font-weight: lighter;
+    padding-right: 5px;;
 }
 
-.list-group {
-    color: #373A3C;
-    font-size: 11px;
-}
-
-.card-link {
-    color: #1C7CD5;
-    font-size: 11px;
-}
+.card-oferta {
+    color: #28A745;
+    font-size: 20px;
+    font-weight: medium;
+ }
 
 .card {
-    margin: 10%;
+    margin: 5%;
 }
 
-.row {
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
 form {
     background-color: #28A745;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+    height: 241px;
 }
+
+#campos {
+    width: 350px;
+ }
 
 footer {
-    background-color: #FFFFFF;
+        text-align: center;
+            padding: 20px;
+         background-color: #FFFFFF;
     height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
+
 footer img {
-    width: 34px;
+    padding-bottom: 10px;
+    width: 100px;
 }

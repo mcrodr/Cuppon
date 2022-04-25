@@ -8,12 +8,10 @@ body * {
 .navbar-brand img {
     width: 120px;
     margin-left: 70px;
-
 }
 
 .navbar {
     background-color: #28A745;
-
 }
 
 .collapse {
@@ -30,7 +28,6 @@ body * {
     margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 
 .card-title {
@@ -48,8 +45,9 @@ body * {
 }
 
 .fa-solid {
-    width: 3px;
+    width: 1rem;
     color: #707070;
+    padding : 10px;
 }
 
 .list-group-item {

@@ -27,35 +27,40 @@ body * {
 }
 
 #cupones {
+    margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
+
 }
 
 .card-title {
     color: #707070;
     font-size: 20pt;
     font-weight: lighter;
+    text-align: left;
 }
 
 .card-text {
     color: #707070;
     font-size: 16pt;
     font-weight: lighter;
+    text-align: left;
 }
 
-.icono {
-    width:10%;
-    display: inline-block;
+.fa-solid {
+    width: 3px;
+    color: #707070;
 }
+
 .list-group-item {
     color: #707070;
     font-size: 13pt;
     font-weight: lighter;
-    display: inline-block;
+    display: inline;
     padding: 0%;
 }
 
-.card-body{
+.card-body {
     text-align: right;
 }
 
@@ -63,14 +68,15 @@ body * {
     color: #707070;
     font-size: 16px;
     font-weight: lighter;
-    padding-right: 5px;;
+    padding-right: 5px;
+    ;
 }
 
 .card-oferta {
     color: #28A745;
     font-size: 20px;
     font-weight: medium;
- }
+}
 
 .card {
     margin: 5%;
@@ -87,12 +93,14 @@ form {
 
 #campos {
     width: 350px;
- }
+    align-items: flex-end;
+}
 
 footer {
-        text-align: center;
-            padding: 20px;
-         background-color: #FFFFFF;
+    vertical-align: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFFFF;
     height: 200px;
 }
 
@@ -100,4 +108,9 @@ footer {
 footer img {
     padding-bottom: 10px;
     width: 100px;
+}
+
+#latam {
+    font-size: 16px;
+    font-weight: lighter;
 }
